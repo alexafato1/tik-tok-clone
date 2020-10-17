@@ -1,0 +1,19 @@
+{
+    "title_h1": {
+      "home": "Make Your Day"
+    },
+    "title_h2": {
+        "home": "Real People. Real Videos."
+    },
+    "button": {
+        "Login": "Login",
+        "Watch": "Watch now",
+        "send": "Send"
+        
+
+    },
+      "download": {
+          "phone": "Text yourself a link to download TikTok",
+          "app": "Download now"
+      }
+}

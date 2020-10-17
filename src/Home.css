@@ -1,0 +1,151 @@
+body{
+    background-color: black;
+}
+
+.home{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: whitesmoke;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    position: sticky;
+   
+}
+
+.header__left{
+   display: flex; 
+}
+.header__right{
+    display: flex; 
+ }
+
+.header__menu{
+    margin:  5px  0; 
+}
+
+.header__logo{
+  margin: 0 10px;
+}
+
+.header__upload{
+    margin: 0 10px;  
+}
+
+.main{
+    background-color: whitesmoke; 
+}
+
+.main__title > h1{
+   font-size: 70px;
+   padding-top: 50px;
+}
+.main__title{
+    display: block;
+    text-align: center;
+    width: 100vmax;
+    
+}
+
+.main__videos{
+   display: flex; 
+   width: 100%;
+  
+   
+}
+.player{
+    display: flex;
+    min-width: 20%;
+    object-fit: fill;
+    height: auto;
+    position: relative;
+    
+}
+.player:hover .video__button{
+   display: block; 
+}
+.video__player{
+    display: flex;
+     min-width: 20%;
+     object-fit: fill;
+     height: auto;
+     position: relative;
+    
+ }
+
+.video__button{
+  display: none;
+  height:40px;
+  width: 10vw;
+  position: absolute;
+  top: 50%; 
+  left: 30%; 
+   
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: block;
+    margin: 0;
+    padding-left: 50px;
+}
+.footer{
+    background-color: black;
+    justify-content: space-between;
+    padding: 50px ;
+    display: flex;
+    max-width: 1250px;
+}
+
+.footer__text {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer__column{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    padding: 0 20px;
+}
+
+
+.footer__column li:first-child{
+    color: white;
+    font-size: 16px;
+}
+
+.footer__column li{
+    color: lightgrey;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.footer__logo{
+    width:180px;
+    
+}
+.footer__text ul{
+  list-style: none;
+}
+
+.footer__copyright{
+   font-size: 13px;;
+   
+}
+
+.footer__lower{
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1250px;
+  padding-left: 50px;
+}
